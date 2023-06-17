@@ -1,0 +1,15 @@
+.content {
+    min-height: calc(100vh - 70px - 64px);
+}
+.movies {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 1rem;
+}
+.filterdiv p{
+    display: inline-block;
+}
+.filterdiv {
+    display: flex;
+    justify-content: space-evenly;
+}
